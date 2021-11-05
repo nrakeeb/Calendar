@@ -9,6 +9,9 @@ currentTime = parseInt(currentTime);
 
 timeEl.text(today.format("dddd, MMMM Do"));
 
+checkColour();
+loadData();
+
 // change colour of time boxes depending on current time
 function checkColour() {
     for (var i = 0; i < timeBlocks.length; i++) {
